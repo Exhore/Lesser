@@ -4,11 +4,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-
-
 // controllers for vue routes will be listed here
-
-use App\Http\Controllers\testController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,9 +34,3 @@ Route::middleware([
     })->name('dashboard');
 });
 
-// This is the way to create a route for a component
-// Route::get('test', [testController::class, 'index']);
-
-Route::get("/test", function () {
-    return Inertia::render('Test');
-});
