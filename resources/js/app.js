@@ -1,12 +1,13 @@
 import './bootstrap';
 import '../css/app.css';
+import 'preline';
 
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { ZiggyVue } from '../../vendor/tightenco/ziggy';
 
-const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
+const appName = import.meta.env.VITE_APP_NAME || 'Lesser';
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,
@@ -18,6 +19,6 @@ createInertiaApp({
             .mount(el);
     },
     progress: {
-        color: '#4B5563',
+        color: '#378CE7',
     },
 });
