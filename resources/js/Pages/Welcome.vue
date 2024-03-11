@@ -180,7 +180,7 @@ defineProps({
                 </div>
 
                 <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-end sm:ms-0">
-                    Laravel v{{ laravelVersion }} (PHP v{{ phpVersion }})
+
                 </div>
             </div>
         </div>

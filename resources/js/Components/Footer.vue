@@ -48,14 +48,13 @@
             </div>
         </div>
         <div class="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
-            <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#1a8bef] to-[#52e2fd] opacity-30"
+            <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#3c80b8] to-[#243cfb] opacity-30"
                 style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
             </div>
         </div>
         <div class="text-center">
             <div class="mt-20">
-                <a class="flex-none text-xl font-semibold text-white dark:text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 mt-10"
-                    href="#" aria-label="Lesser"><img src="'/resources/assets/logo.svg'"></a>
+                <ApplicationLogo class="h-56 w-56 mx-auto" />
             </div>
 
             <div class="mt-3">
@@ -102,6 +101,9 @@
 </template>
 
 <script>
+import ApplicationLogo from '@/Components/ApplicationLogo.vue';
+import axios from 'axios';
+
 
 export default {
     name: 'Footer',
@@ -111,10 +113,18 @@ export default {
             emailError: false
         }
     },
+    components: {
+        ApplicationLogo
+    },
     methods: {
         validateEmail() {
-            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            return !re.test(String(this.email).toLowerCase()) ? this.emailError = true : this.emailError = false;
+            axios.post('/subscribe', {
+                email: this.email
+            }).then(response => {
+                console.log(response);
+            }).catch(error => {
+                console.log(error);
+            });
         }
     }
 }
