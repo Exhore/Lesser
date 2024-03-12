@@ -9,8 +9,10 @@ export default {
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
         './resources/js/**/*.vue',
-        'node_modules/preline/dist/*.js',
-        'node_modules/preline/preline.js'
+        './node_modules/preline/dist/*.js',
+        './node_modules/preline/plugin.js',
+        './node_modules/preline/preline.js',
+        './node_modules/preline/dist/preline.js'
     ],
 
     /* darkmode */
@@ -28,7 +30,7 @@ export default {
     },
 
     plugins: [require('@tailwindcss/forms'),
-    require('preline/plugin'),
     require('@tailwindcss/typography'),
-    require('@tailwindcss/aspect-ratio')]
+    require('@tailwindcss/aspect-ratio'),
+    require('preline/plugin')]
 };

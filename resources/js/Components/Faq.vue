@@ -24,7 +24,7 @@
                         <button
                             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
-                            Can I cancel at anytime?
+                            lorem?
                             <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -42,8 +42,7 @@
                             class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
                             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one">
                             <p class="text-gray-600 dark:text-gray-400">
-                                Yes, you can cancel anytime no questions are asked while you cancel but we would highly
-                                appreciate if you will give us some feedback.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam cupiditate numquam error. Assumenda, doloribus hic? Rerum ad voluptate amet beatae eos! Vitae consequatur quidem laborum optio! Accusamus dignissimos reprehenderit expedita.
                             </p>
                         </div>
                     </div>
@@ -52,7 +51,7 @@
                         <button
                             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
-                            My team has credits. How do we use them?
+                            lorem?
                             <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -70,8 +69,7 @@
                             class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two">
                             <p class="text-gray-600 dark:text-gray-400">
-                                Once your team signs up for a subscription plan. This is where we sit down, grab a cup
-                                of coffee and dial in the details.
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut deserunt consectetur minus quibusdam unde at ipsum totam quidem optio, nobis quisquam recusandae sequi, ab nostrum eos dignissimos cum ratione eum.
                             </p>
                         </div>
                     </div>
@@ -80,7 +78,7 @@
                         <button
                             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three">
-                            How does Preline's pricing work?
+                            Lorem?
                             <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -98,8 +96,7 @@
                             class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three">
                             <p class="text-gray-600 dark:text-gray-400">
-                                Our subscriptions are tiered. Understanding the task at hand and ironing out the
-                                wrinkles is key.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellendus veritatis nihil commodi ex provident ullam quidem amet. Temporibus quidem expedita doloremque provident eaque error quibusdam corrupti quos quasi aperiam?
                             </p>
                         </div>
                     </div>
@@ -108,7 +105,7 @@
                         <button
                             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four">
-                            How secure is Preline?
+                            lorem?
                             <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -126,8 +123,7 @@
                             class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four">
                             <p class="text-gray-600 dark:text-gray-400">
-                                Protecting the data you trust to Preline is our first priority. This part is really
-                                crucial in keeping the project in line to completion.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptates, eligendi dignissimos fuga facere itaque expedita debitis provident eaque modi, unde impedit laboriosam laudantium ratione aliquam nobis voluptate ab ullam?
                             </p>
                         </div>
                     </div>
@@ -136,7 +132,7 @@
                         <button
                             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five">
-                            How do I get access to a theme I purchased?
+                            lorem?
                             <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -154,11 +150,7 @@
                             class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five">
                             <p class="text-gray-600 dark:text-gray-400">
-                                If you lose the link for a theme you purchased, don't panic! We've got you covered. You
-                                can login to your account, tap your avatar in the upper right corner, and tap Purchases.
-                                If you didn't create a login or can't remember the information, you can use our handy
-                                Redownload page, just remember to use the same email you originally made your purchases
-                                with.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo at repudiandae in excepturi deserunt eius necessitatibus aspernatur, recusandae minus sunt illo architecto assumenda a voluptates! Soluta illo quaerat asperiores itaque.
                             </p>
                         </div>
                     </div>
@@ -167,7 +159,7 @@
                         <button
                             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six">
-                            Upgrade License Type
+                            lorem?
                             <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -185,9 +177,7 @@
                             class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six">
                             <p class="text-gray-600 dark:text-gray-400">
-                                There may be times when you need to upgrade your license from the original type you
-                                purchased and we have a solution that ensures you can apply your original purchase cost
-                                to the new license purchase.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia delectus corporis deserunt, porro ex amet. Sint vitae, voluptatibus quia tenetur consequuntur reiciendis eligendi aliquam non. Exercitationem enim repellendus optio corporis?
                             </p>
                         </div>
                     </div>
@@ -199,5 +189,4 @@
         <!-- End Grid -->
     </div>
     <!-- End FAQ -->
-
 </template>

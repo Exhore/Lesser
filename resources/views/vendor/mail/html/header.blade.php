@@ -1,3 +1,5 @@
+{{-- foto para email --}}
+
 @props(['url'])
 <tr>
     <td class="header">

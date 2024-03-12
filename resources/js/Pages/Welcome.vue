@@ -3,6 +3,7 @@ import { Head, Link } from '@inertiajs/vue3';
 import Footer from '@/Components/Footer.vue';
 import ApplicationLogo from '@/Components/ApplicationLogo.vue';
 import Faq from '@/Components/Faq.vue';
+import Instructions from '@/Components/Instructions.vue';
 
 
 defineProps({
@@ -12,7 +13,9 @@ defineProps({
 
 components: {
     Footer,
-        ApplicationLogo
+        ApplicationLogo,
+        Faq,
+        Instructions
 }
 
 </script>
@@ -23,34 +26,30 @@ components: {
 
     <!-- estudiar como accede a la rutas para reestructurar el diseño -->
     <div
-        class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
+        class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-blue-500 selection:text-white">
         <div v-if="canLogin" class="sm:fixed sm:top-0 sm:end-0 p-6 text-end z-10">
             <Link v-if="$page.props.auth.user" :href="route('dashboard')"
-                class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
+                class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-blue-500">
             Dashboard</Link>
 
             <template v-else>
                 <Link :href="route('login')"
-                    class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
+                    class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-blue-500">
                 Log in</Link>
 
                 <Link v-if="canRegister" :href="route('register')"
-                    class="ms-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
+                    class="ms-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-blue-500">
                 Register</Link>
             </template>
         </div>
         <!-- fin -->
 
 
-
         <!-- Content -->
-
             <div class="h-screen flex flex-col pb-6">
                 <div class="h-full flex flex-col justify-center">
                     <div class="-mt-40 max-w-4xl w-full text-center mx-auto px-4 sm:px-6 lg:px-8">
                         <ApplicationLogo class="w-64 h-auto inline-flex mb-10" />
-                        <!--  <img src="/assets/logo.svg" class="w-64 h-auto inline-flex mb-10"/>-->
-
                         <h1 class="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">
                             Welcome to Lesser.
                         </h1>
@@ -93,9 +92,11 @@ components: {
         </div>
 
     <!-- second component -->
-    <Faq />
+    <Instructions class="mt-20"></Instructions>
+    <!-- third component -->
+    <Faq class="mt-20"></Faq>
     <!-- footer component -->
-    <Footer mt-20 />
+    <Footer class="mt-20"></Footer>
 </template>
 
 <style>
