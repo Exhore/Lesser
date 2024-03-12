@@ -22,11 +22,11 @@ components: {
 
 <template>
 
-    <Head title="Welcome" />
+    <Head title="Welcome"/>
 
     <!-- estudiar como accede a la rutas para reestructurar el diseño -->
     <div
-        class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-blue-500 selection:text-white">
+        class="gradient-background relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-blue-500 selection:text-white">
         <div v-if="canLogin" class="sm:fixed sm:top-0 sm:end-0 p-6 text-end z-10">
             <Link v-if="$page.props.auth.user" :href="route('dashboard')"
                 class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-blue-500">
@@ -101,9 +101,9 @@ components: {
 
 <style>
 .gradient-background {
-    background: linear-gradient(19deg, #ffffff, #9ca3ae);
+    background: linear-gradient(19deg, #ffffff, #cacccf);
     background-size: 120% 120%;
-    animation: gradient-animation 10s ease infinite;
+    animation: gradient-animation 9s ease infinite;
 }
 
 @keyframes gradient-animation {
