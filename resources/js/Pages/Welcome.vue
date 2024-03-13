@@ -4,6 +4,7 @@ import Footer from '@/Components/Footer.vue';
 import ApplicationLogo from '@/Components/ApplicationLogo.vue';
 import Faq from '@/Components/Faq.vue';
 import Instructions from '@/Components/Instructions.vue';
+import Modalito from '@/Components/Modalito.vue';
 
 
 defineProps({
@@ -15,7 +16,8 @@ components: {
     Footer,
         ApplicationLogo,
         Faq,
-        Instructions
+        Instructions,
+        Modalito
 }
 
 </script>
@@ -94,7 +96,8 @@ components: {
     <!-- second component -->
     <Instructions class="mt-20"></Instructions>
     <!-- third component -->
-    <Faq class="mt-20"></Faq>
+    <Faq></Faq>
+    <Modalito></Modalito>
     <!-- footer component -->
     <Footer class="mt-20"></Footer>
 </template>
@@ -103,7 +106,7 @@ components: {
 .gradient-background {
     background: linear-gradient(19deg, #ffffff, #cacccf);
     background-size: 120% 120%;
-    animation: gradient-animation 9s ease infinite;
+    animation: gradient-animation 5s ease infinite;
 }
 
 @keyframes gradient-animation {

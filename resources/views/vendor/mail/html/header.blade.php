@@ -4,7 +4,7 @@
 <tr>
     <td class="header">
         <a href="{{ $url }}" style="display: inline-block;">
-            <img src="{{ asset('images/logo.svg') }}" class="logo" alt="Lesser-Logo">
+            <img src="./public/assets/logo.svg" class="logo" alt="Lesser-Logo">
         </a>
     </td>
 </tr>
