@@ -87,7 +87,7 @@ const submit = () => {
             </div>
 
             <div class="mt-4">
-                <InputLabel for="phone" value="phone" />
+                <InputLabel for="phone" value="Phone" />
                 <TextInput
                     id="phone"
                     v-model="form.phone"
@@ -118,7 +118,7 @@ const submit = () => {
                 </Link>
 
                 <PrimaryButton class="ms-4" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
-                    PORFA
+                    Register
                 </PrimaryButton>
             </div>
         </form>

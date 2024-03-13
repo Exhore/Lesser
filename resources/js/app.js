@@ -24,6 +24,7 @@ createInertiaApp({
     },
 });
 
+// preline refresh
 setInterval(() => {
     window.HSStaticMethods.autoInit();
 }, 1000);
