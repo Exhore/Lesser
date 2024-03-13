@@ -14,5 +14,3 @@ use Illuminate\Support\Facades\Route;
 |
 */
 // para validar usuario (desde vue, manda axios una peticion API a esta ruta)
-
-Route::post('/subscribe', 'SubscriptionController@store');
