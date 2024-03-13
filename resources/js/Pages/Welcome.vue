@@ -5,17 +5,15 @@ import ApplicationLogo from '@/Components/ApplicationLogo.vue';
 import Faq from '@/Components/Faq.vue';
 import Instructions from '@/Components/Instructions.vue';
 
-
 defineProps({
     canLogin: Boolean,
     canRegister: Boolean
 });
 
 components: {
-    Footer,
-        ApplicationLogo,
+    Instructions,
         Faq,
-        Instructions
+        Footer
 }
 
 </script>
@@ -23,7 +21,6 @@ components: {
 <template>
 
     <Head title="Welcome" />
-
     <!-- estudiar como accede a la rutas para reestructurar el diseño -->
     <div
         class="gradient-background relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-blue-500 selection:text-white">
@@ -70,7 +67,7 @@ components: {
                 </div>
                 <!-- End Search -->
             </div>
-
+            <!--  copyright footer -->
             <footer class="mt-auto max-w-4xl text-center mx-auto px-4 sm:px-6 lg:px-8">
                 <p class="text-xs text-gray-600 dark:text-gray-500">Nelson Rivera. 2024 DAW. MIT license.</p>
 
@@ -110,18 +107,44 @@ components: {
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:51% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:51% 0%}
+    0% {
+        background-position: 51% 0%
+    }
+
+    50% {
+        background-position: 50% 100%
+    }
+
+    100% {
+        background-position: 51% 0%
+    }
 }
+
 @-moz-keyframes AnimationName {
-    0%{background-position:51% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:51% 0%}
+    0% {
+        background-position: 51% 0%
+    }
+
+    50% {
+        background-position: 50% 100%
+    }
+
+    100% {
+        background-position: 51% 0%
+    }
 }
+
 @keyframes AnimationName {
-    0%{background-position:51% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:51% 0%}
+    0% {
+        background-position: 51% 0%
+    }
+
+    50% {
+        background-position: 50% 100%
+    }
+
+    100% {
+        background-position: 51% 0%
+    }
 }
 </style>
