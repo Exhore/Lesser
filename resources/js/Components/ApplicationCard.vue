@@ -10,6 +10,6 @@ export default {
 
 <template>
     <Link :href="'/'">
-    <img src="/assets/logo.svg" alt="Logo" />
+    <img src="/assets/logo.svg" alt="Logo" class="w-16 h-auto" />
     </Link>
 </template>
