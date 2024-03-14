@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         schema::create('payment', function (Blueprint $table) {
-            $table->id();
+            $table->id()->primary();
             $table->foreignId('user_id')->references('id')->on('users');
             $table->timestamp('payment_date_from');
             $table->timestamp('payment_date_to');

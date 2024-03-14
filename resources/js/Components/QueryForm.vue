@@ -8,7 +8,6 @@ components: {
 
 
 </script>
-
 <template>
     <!-- Search -->
     <div class="mt-10 max-w-2xl w-full mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,6 +33,5 @@ components: {
         </div>
     </div>
     <!-- End Search -->
-    <ModalLogin/>
 
 </template>

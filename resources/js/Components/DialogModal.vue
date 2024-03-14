@@ -1,5 +1,4 @@
 <script setup>
-import Modal from './Modal.vue';
 
 const emit = defineEmits(['close']);
 
@@ -45,4 +44,3 @@ const close = () => {
         </div>
     </Modal>
 </template>
-./ModalLogin.vue
