@@ -24,7 +24,7 @@
                         <button
                             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
-                            lorem?
+                            It's free?
                             <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -42,7 +42,7 @@
                             class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
                             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one">
                             <p class="text-gray-600 dark:text-gray-400">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam cupiditate numquam error. Assumenda, doloribus hic? Rerum ad voluptate amet beatae eos! Vitae consequatur quidem laborum optio! Accusamus dignissimos reprehenderit expedita.
+                                Almost. You will have a limit of 10 videos per month. If you need more, you can subscribe to a plan.
                             </p>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                         <button
                             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
-                            lorem?
+                            All type of video works?
                             <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -69,7 +69,7 @@
                             class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two">
                             <p class="text-gray-600 dark:text-gray-400">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut deserunt consectetur minus quibusdam unde at ipsum totam quidem optio, nobis quisquam recusandae sequi, ab nostrum eos dignissimos cum ratione eum.
+                                Yes, it works with all types of videos. The only requirement is that the video is public and has an URL... and that's it.
                             </p>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                         <button
                             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three">
-                            Lorem?
+                            Which tech are you using?
                             <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -96,7 +96,7 @@
                             class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three">
                             <p class="text-gray-600 dark:text-gray-400">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellendus veritatis nihil commodi ex provident ullam quidem amet. Temporibus quidem expedita doloremque provident eaque error quibusdam corrupti quos quasi aperiam?
+                                We are using youtube API + OpenAI.
                             </p>
                         </div>
                     </div>
@@ -105,7 +105,7 @@
                         <button
                             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four">
-                            lorem?
+                            Can I fork the code?
                             <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -123,7 +123,7 @@
                             class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four">
                             <p class="text-gray-600 dark:text-gray-400">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptates, eligendi dignissimos fuga facere itaque expedita debitis provident eaque modi, unde impedit laboriosam laudantium ratione aliquam nobis voluptate ab ullam?
+                                Yes, you can fork the code. It's open source.
                             </p>
                         </div>
                     </div>
@@ -132,7 +132,8 @@
                         <button
                             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five">
-                            lorem?
+                            Can I use without registration?
+
                             <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -150,7 +151,7 @@
                             class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five">
                             <p class="text-gray-600 dark:text-gray-400">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo at repudiandae in excepturi deserunt eius necessitatibus aspernatur, recusandae minus sunt illo architecto assumenda a voluptates! Soluta illo quaerat asperiores itaque.
+                                No. You must register to use the service.
                             </p>
                         </div>
                     </div>
@@ -159,7 +160,8 @@
                         <button
                             class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six">
-                            lorem?
+                            How can I contact you?
+
                             <svg class="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -177,7 +179,7 @@
                             class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six">
                             <p class="text-gray-600 dark:text-gray-400">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia delectus corporis deserunt, porro ex amet. Sint vitae, voluptatibus quia tenetur consequuntur reiciendis eligendi aliquam non. Exercitationem enim repellendus optio corporis?
+                                There is a contact form in the footer of the page for newsletter. Also you can send suggestions at the box down below.
                             </p>
                         </div>
                     </div>

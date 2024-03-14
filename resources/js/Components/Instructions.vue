@@ -32,12 +32,9 @@
                                 </svg>
                                 <span class="grow ms-6">
                                     <span
-                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Advanced
-                                        tools</span>
+                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Copy a youtube video</span>
                                     <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Use
-                                        Preline thoroughly thought and automated libraries to manage your
-                                        businesses.</span>
+                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Use share link to copy the youtube video.</span>
                                 </span>
                             </span>
                         </button>
@@ -56,11 +53,9 @@
                                 </svg>
                                 <span class="grow ms-6">
                                     <span
-                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Smart
-                                        dashboards</span>
+                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Paste it!</span>
                                     <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Quickly
-                                        Preline sample components, copy-paste codes, and start right off.</span>
+                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Just paste the link into the upside box.</span>
                                 </span>
                             </span>
                         </button>
@@ -83,11 +78,9 @@
                                 </svg>
                                 <span class="grow ms-6">
                                     <span
-                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Powerful
-                                        features</span>
+                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Summarize is cooking</span>
                                     <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Reduce
-                                        time and effort on building modern look design with Preline only.</span>
+                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Enjoy the magic powered by AI.</span>
                                 </span>
                             </span>
                         </button>
