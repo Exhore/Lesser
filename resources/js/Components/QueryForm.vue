@@ -1,10 +1,6 @@
 <script setup>
 import axios from 'axios';
-import ModalLogin from './ModalLogin.vue';
 
-components: {
-    ModalLogin
-}
 
 
 </script>
@@ -34,4 +30,4 @@ components: {
     </div>
     <!-- End Search -->
 
-</template>
+</template>./Modal.vue
