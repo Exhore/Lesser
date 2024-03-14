@@ -4,6 +4,7 @@ import Footer from '@/Components/Footer.vue';
 import ApplicationLogo from '@/Components/ApplicationLogo.vue';
 import Faq from '@/Components/Faq.vue';
 import Instructions from '@/Components/Instructions.vue';
+import QueryForm from '@/Components/QueryForm.vue';
 
 defineProps({
     canLogin: Boolean,
@@ -28,7 +29,6 @@ components: {
             <Link v-if="$page.props.auth.user" :href="route('dashboard')"
                 class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-blue-500">
             Dashboard</Link>
-
             <template v-else>
                 <Link :href="route('login')"
                     class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-blue-500">
@@ -56,15 +56,7 @@ components: {
                 </div>
 
                 <!-- Search -->
-                <div class="mt-10 max-w-2xl w-full mx-auto px-4 sm:px-6 lg:px-8">
-                    <div class="relative">
-                        <input type="text"
-                            class="p-4 block w-full border-gray-200 rounded-full text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
-                            placeholder="Paste a youtube video...">
-                        <div class="absolute top-1/2 end-2 -translate-y-1/2">
-                        </div>
-                    </div>
-                </div>
+                <QueryForm/>
                 <!-- End Search -->
             </div>
             <!--  copyright footer -->
