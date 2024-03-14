@@ -20,6 +20,9 @@ components: {
                     <div class="absolute top-1/2 end-2 -translate-y-1/2">
                     </div>
                 </form>
+                <div>
+                    test
+                </div>
             </div>
             <template v-else>
                 <form action="/query" method="post" id="query">
