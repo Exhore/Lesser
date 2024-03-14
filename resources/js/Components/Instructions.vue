@@ -4,7 +4,7 @@
 
 <template>
     <!-- Features -->
-    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto" id="instructions">
         <div class="relative p-6 md:p-16">
             <!-- Grid -->
             <div class="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
@@ -95,15 +95,15 @@
                         <div>
                             <div id="tabs-with-card-1" role="tabpanel" aria-labelledby="tabs-with-card-item-1">
                                 <img class="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
-                                    src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
-                                    alt="Image Description">
+                                    src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_YouTube_image1280w.jpg"
+                                    alt="Youtube example">
                             </div>
 
                             <div id="tabs-with-card-2" class="hidden" role="tabpanel"
                                 aria-labelledby="tabs-with-card-item-2">
                                 <img class="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
-                                    src="https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
-                                    alt="Image Description">
+                                    src="https://images.pexels.com/photos/2657669/pexels-photo-2657669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="copy paste">
                             </div>
 
                             <div id="tabs-with-card-3" class="hidden" role="tabpanel"
@@ -117,7 +117,7 @@
 
                         <!-- SVG Element -->
                         <div class="hidden absolute top-0 end-0 translate-x-20 md:block lg:translate-x-20">
-                            <svg class="w-16 h-auto text-orange-500" width="121" height="135" viewBox="0 0 121 135"
+                            <svg class="w-16 h-auto text-blue-500" width="121" height="135" viewBox="0 0 121 135"
                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5 16.4754C11.7688 27.4499 21.2452 57.3224 5 89.0164" stroke="currentColor"
                                     stroke-width="10" stroke-linecap="round" />
