@@ -32,9 +32,11 @@
                                 </svg>
                                 <span class="grow ms-6">
                                     <span
-                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Copy a youtube video</span>
+                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Copy
+                                        a youtube video</span>
                                     <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Use share link to copy the youtube video.</span>
+                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Use
+                                        share link to copy the youtube video.</span>
                                 </span>
                             </span>
                         </button>
@@ -53,9 +55,11 @@
                                 </svg>
                                 <span class="grow ms-6">
                                     <span
-                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Paste it!</span>
+                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Paste
+                                        it!</span>
                                     <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Being logged, just paste the link into the upside input box.</span>
+                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Being
+                                        logged, just paste the link into the upside input box.</span>
                                 </span>
                             </span>
                         </button>
@@ -78,9 +82,12 @@
                                 </svg>
                                 <span class="grow ms-6">
                                     <span
-                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Summary is in the works</span>
+                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Summary
+                                        is in the works</span>
                                     <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Enjoy the magic powered by AI. You will recieve an prompt output that's a summarize of a youtube video.</span>
+                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">Enjoy
+                                        the magic powered by AI. You will recieve an prompt output that's a summarize of
+                                        a youtube video.</span>
                                 </span>
                             </span>
                         </button>

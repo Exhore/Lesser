@@ -34,3 +34,4 @@ Route::middleware([
     })->name('dashboard');
 });
 
+Route::post('/query', 'QueryController@handleQuery')->middleware('auth');

@@ -55,4 +55,3 @@ const close = () => {
         </div>
     </Modal>
 </template>
-./ModalLogin.vue
