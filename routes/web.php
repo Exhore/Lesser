@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\QueryController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -22,7 +23,7 @@ Route::get('/', function () {
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register')
     ]);
-});
+})->name('welcome');
 
 Route::middleware([
     'auth:sanctum',
@@ -32,6 +33,5 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return Inertia::render('Dashboard');
     })->name('dashboard');
+    Route::post('/query', [QueryController::class, "handleQuery"]);
 });
-
-Route::post('/query', 'QueryController@handleQuery')->middleware('auth');

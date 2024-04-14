@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\API\YoutubeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
-// para validar usuario (desde vue, manda axios una peticion API a esta ruta)
+
+Route::get('/youtube', [YoutubeController::class, 'getCaptions']);
