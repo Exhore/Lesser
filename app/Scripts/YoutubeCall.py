@@ -17,8 +17,6 @@ def get_subtitles(video_id):
                 # Si no se encuentra una transcripción manualmente creada, intentar obtener una transcripción autogenerada
                 transcript = transcript_list.find_generated_transcript([lang])
             except:
-                print(
-                    f"No se encontró una transcripción para el idioma '{lang}'")
                 continue
 
         # Obtener la lista de subtítulos
@@ -41,5 +39,9 @@ def get_subtitles(video_id):
 if __name__ == "__main__":
     video_id = sys.argv[1]
     transcriptions = get_subtitles(video_id)
-    print("Transcripción en español:", transcriptions.get('es', 'No disponible'))
-    print("Transcripción en inglés:", transcriptions.get('en', 'No disponible'))
+
+    if transcriptions.get('en') == None:
+        print(transcriptions.get('es'))
+    else:
+        if transcriptions.get('es') == None:
+            print(transcriptions.get('en'))

@@ -42,9 +42,10 @@ class QueryController extends Controller
         } else {
             Session::flash('status', "error: user not authenticated!");
         }
+        return redirect()->route('welcome');
         // Retorna la vista con los props
-        return Inertia::render('Welcome', [
+        /*         return Inertia::render('Welcome', [
             'captionsMessage' => Session::get('captionsMessage'),
-        ]);
+        ]); */
     }
 }

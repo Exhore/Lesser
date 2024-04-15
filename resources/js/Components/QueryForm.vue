@@ -43,16 +43,10 @@ const submitForm = async () => {
                         placeholder="Paste a youtube video..."
                     />
                 </div>
-            </form>
-            <div v-if="$page.props.flash.status" class="alert">
-                {{ $page.props.flash.status }}
-                <div v-if="$page.props.captionsMessage">
-                    <!--  insertar animaciones para desvanecer todo -->
-                    <CaptionsComponent
-                        :captionsMessage="$page.props.captionsMessage"
-                    />
+                <div class="text-pretty">
+                    <CaptionsComponent />
                 </div>
-            </div>
+            </form>
             <div v-if="$page.props.errors.videoUrl">
                 {{ $page.props.errors.videoUrl }}
             </div>
