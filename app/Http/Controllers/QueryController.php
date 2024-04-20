@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 use Exception;
-use Inertia\Inertia; // Asegúrate de importar Inertia
 
 class QueryController extends Controller
 {
@@ -32,7 +31,7 @@ class QueryController extends Controller
                 // Crear un nuevo registro en la tabla 'history'
                 \App\Models\History::create([
                     'user_id' => $userId,
-                    'title' => 'Some title', // Reemplaza esto con el título que desees
+                    'title' => 'Some title', /* sacar el titulo de youtube para mostrar aqui */
                     'description' => $captionsMessage,
                     'url' => $videoUrl
                 ]);
