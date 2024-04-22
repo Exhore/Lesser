@@ -41,7 +41,7 @@ if __name__ == "__main__":
     transcriptions = get_subtitles(video_id)
 
     if transcriptions.get('en') == None:
-        print(transcriptions.get('es'))
+        print(transcriptions.get("es"))
     else:
         if transcriptions.get('es') == None:
-            print(transcriptions.get('en'))
+            print(transcriptions.get("en"))

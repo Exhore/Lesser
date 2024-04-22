@@ -24,15 +24,17 @@ class QueryController extends Controller
             $videoUrl = $request->input('videoUrl');
             $userId = Auth::id();
             Session::flash('status', 'Task was successful!');
-            $scriptRoutine = base_path('app/Scripts/YoutubeCall.py');
+            $scriptRoutineYoutube = base_path('app/Scripts/YoutubeCall.py');
+            $scriptRoutineChatGPT = base_path('app/Scripts/ChatGPTCall.py');
             try {
-                $captionsMessage = shell_exec("python3 $scriptRoutine " . $video_id);
-                Session::flash('captionsMessage', $captionsMessage);
+                $captionsMessage = shell_exec("python3 $scriptRoutineYoutube " . $video_id);
+                $summarizeMessage = shell_exec("python3 $scriptRoutineChatGPT \"" . $captionsMessage . "\"");
+                Session::flash('captionsMessage', $summarizeMessage);
                 // Crear un nuevo registro en la tabla 'history'
                 \App\Models\History::create([
                     'user_id' => $userId,
                     'title' => 'Some title', /* sacar el titulo de youtube para mostrar aqui */
-                    'description' => $captionsMessage,
+                    'description' => $summarizeMessage,
                     'url' => $videoUrl
                 ]);
             } catch (Exception $e) {
