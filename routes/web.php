@@ -31,7 +31,9 @@ Route::middleware([
     'verified',
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return Inertia::render('Dashboard');
+        $videos = \App\Models\History::where('user_id', auth()->user()->id)->get();
+
+        return Inertia::render('Dashboard', ['videos' => $videos]);
     })->name('dashboard');
     Route::post('/query', [QueryController::class, "handleQuery"]);
 });

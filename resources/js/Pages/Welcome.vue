@@ -4,6 +4,7 @@ import Footer from "@/Components/Footer.vue";
 import Faq from "@/Components/Faq.vue";
 import Instructions from "@/Components/Instructions.vue";
 import Header from "@/Components/Header.vue";
+import ThemeSwitcher from "@/Components/ThemeSwitcher.vue";
 
 defineProps({
     canLogin: Boolean,

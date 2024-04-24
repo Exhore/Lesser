@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\API\YoutubeController;
+use App\Http\Controllers\CrudController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +15,4 @@ use App\Http\Controllers\API\YoutubeController;
 |
 */
 
-Route::get('/youtube', [YoutubeController::class, 'getCaptions']);
+Route::get('/dashboard', [CrudController::class, 'videos']);
