@@ -1,10 +1,11 @@
 <?php
 
 namespace App\Mail;
+
 use Illuminate\Support\Facades\Lang;
 use Illuminate\Notifications\Messages\MailMessage;
 
-// AQUI SE PERSONALIZA EL EMAIL
+
 class ResetPassword extends \Illuminate\Auth\Notifications\ResetPassword
 {
     protected function buildMailMessage($url)

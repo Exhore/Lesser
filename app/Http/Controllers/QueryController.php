@@ -23,12 +23,13 @@ class QueryController extends Controller
         if (Auth::check()) {
             $videoUrl = $request->input('videoUrl');
             $userId = Auth::id();
+            $language = $request->input('language');
             Session::flash('status', 'Task was successful!');
             $scriptRoutineYoutube = base_path('app/Scripts/YoutubeCall.py');
             $scriptRoutineChatGPT = base_path('app/Scripts/ChatGPTCall.py');
             try {
                 $captionsMessage = shell_exec("python3 $scriptRoutineYoutube " . $video_id);
-                $summarizeMessage = shell_exec("python3 $scriptRoutineChatGPT \"" . $captionsMessage . "\"");
+                $summarizeMessage = shell_exec("python3 $scriptRoutineChatGPT \"" . $captionsMessage . $language . "\"");
                 Session::flash('captionsMessage', $summarizeMessage);
                 // Crear un nuevo registro en la tabla 'history'
                 \App\Models\History::create([
