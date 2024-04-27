@@ -4,7 +4,7 @@
 <tr>
     <td class="header">
         <a href="{{ $url }}" style="display: inline-block;">
-            <img src="./public/assets/logo.svg" class="logo" alt="Lesser-Logo">
+            <img src="https://i.imgur.com/WzK3yPc.png" class="logo" alt="{{ config('app.name') }}" />
         </a>
     </td>
 </tr>

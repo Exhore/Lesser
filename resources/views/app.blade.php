@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=inter:100,200,300,400,500,600,700" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/favicon.ico') }}">
     <!-- Scripts -->
     @routes
     @vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue", 'resources/css/app.css'])
