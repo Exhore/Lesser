@@ -7,7 +7,6 @@
   <a href="https://www.nelsonrivera.es/">
     <img src="https://i.imgur.com/vqq17xp.png" alt="Logo">
   </a>
-![MIT](https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge)
   <h3 align="center">Lesser. Your youtube video summarizer.</h3>
 
   <p align="center">
@@ -18,7 +17,7 @@
     <a href="https://github.com/Exhore/Lesser/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-
+![MIT](https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge)
 
 
 
