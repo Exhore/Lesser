@@ -34,9 +34,9 @@ export default {
 </script>
 
 <template>
-    <div v-if="$page.props.flash.captionsMessage">
+    <div v-if="$page.props.flash.captionsMessage" class="z-10">
         <div
-            class="rounded-xl overflow-hidden shadow-2xl w-[75vw] flex m-auto mt-20"
+            class="rounded-xl overflow-hidden shadow-2xl max-w-[75vw] w-fit flex m-auto"
         >
             <div
                 class="flex justify-center overflow-auto bg-white py-10 px-10 text-pretty text-sm dark:bg-slate-800 dark:text-gray-400 dark:border-gray-700 dark:focus:ring-gray-600 w-full h-[75vh]"

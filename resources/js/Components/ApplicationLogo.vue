@@ -10,10 +10,6 @@ export default {
 
 <template>
     <Link :href="'/'">
-        <img
-            src="/assets/logo.svg"
-            alt="Logo"
-            class="animate-in fade-in-0 duration-1000"
-        />
+        <img src="/assets/logo.svg" alt="Logo" />
     </Link>
 </template>

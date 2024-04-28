@@ -58,11 +58,11 @@ const deleteEntry = (id) => {
                     <td class="w-4 p-4"></td>
                     <th
                         scope="row"
-                        class="flex items-center px-6 py-4 text-gray-900 whitespace-nowrap dark:text-white"
+                        class="flex items-center px-6 py-4 text-gray-900 w-fit flex-wrap dark:text-white"
                     >
                         <!-- aqui podría ir la imagen del thumbail del video -->
                         <div class="ps-3">
-                            <div class="text-base font-semibold">
+                            <div class="line-clamp-2">
                                 {{ video.title }}
                             </div>
                         </div>
@@ -70,7 +70,7 @@ const deleteEntry = (id) => {
                     <td class="px-6 py-4">
                         <!-- summarize aqui -->
                         <span>{{
-                            video.description.substring(0, 50) + "..."
+                            video.description.substring(0, 20) + "..."
                         }}</span>
                     </td>
                     <td class="px-6 py-4">

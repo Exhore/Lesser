@@ -26,7 +26,7 @@ export default {
         <!-- Content -->
         <div class="h-screen flex flex-col">
             <div
-                class="w-full h-screen animate-in fade-in-0 slide-in-from-bottom duration-1000 -mt-20"
+                class="w-full h-screen animate-in fade-in-0 slide-in-from-top duration-1000"
             >
                 <div class="h-full flex flex-col justify-center">
                     <div
@@ -53,7 +53,7 @@ export default {
                 </div>
 
                 <footer
-                    class="mt-auto max-w-4xl text-center mx-auto px-4 sm:px-6 lg:px-8"
+                    class="max-w-4xl text-center mx-auto px-4 sm:px-6 lg:px-8 -mt-20"
                 >
                     <p class="text-xs text-gray-600 dark:text-gray-500">
                         Nelson Rivera. 2024 DAW. MIT license.

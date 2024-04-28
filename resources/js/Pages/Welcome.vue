@@ -14,11 +14,11 @@ defineProps({
 <template>
     <Head title="Welcome" />
     <div
-        class="z-10 relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-blue-500 selection:text-white"
+        class="z-50 relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-blue-500 selection:text-white"
     >
         <div
             v-if="canLogin"
-            class="sm:fixed sm:top-0 sm:end-0 p-6 text-end z-10"
+            class="sm:fixed sm:top-0 sm:end-0 p-6 text-end z-50"
         >
             <Link
                 v-if="$page.props.auth.user"
