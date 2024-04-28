@@ -68,9 +68,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-InertiaJS<img src="https://avatars.githubusercontent.com/u/47703742?s=280&v=4" alt="inertia" width=32px height=32px>
-
+<div class="inline"><img src="https://avatars.githubusercontent.com/u/47703742?s=280&v=4" alt="inertia" width=32px height=32px>
+InertiaJS</div>
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
 
