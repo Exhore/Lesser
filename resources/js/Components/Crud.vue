@@ -27,7 +27,7 @@ const viewSummarize = (description) => {
 };
 
 const deleteEntry = (id) => {
-    Inertia.delete(`/dashboard/videos/${id}`).then(() => {
+    Inertia.delete(`/dashboard/videos/${id}`)?.then(() => {
         // After the video is deleted, fetch the updated list of videos
         Inertia.reload({ only: ["videos"] });
     });
