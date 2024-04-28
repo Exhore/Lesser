@@ -82,6 +82,7 @@ If you don't want to use the App in my website, you can also run it in local. Th
 
 List of prerequisites you need to use the software and how to install them.
 
+* Git
 * php 8.0+, composer, laravel
 * All dependencies in package.json that will be installed with npm later.
 * Mysql database
