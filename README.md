@@ -100,7 +100,21 @@ _Below there is the requirements dependencies to install the program and run it 
    ```sh
    npm install
    ```
-4. Put the '.env' file in root folder
+4. Composer install
+  ``` 
+  composer install
+  ```
+5. Put the '.env' file in root folder
+
+6. Run build
+
+If you want to run in dev mode, power on laravel and do the migrations and run build.
+
+```
+php artisan migrate
+php artisan serve
+npm run dev
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
