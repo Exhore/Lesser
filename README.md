@@ -81,6 +81,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Inertiajs][inertiajs.com]][inertia-url]
 * [![Inertiajs][inertiajs.com]][inertia-url]
 * [![Python][Python-url]][Python-url]
+* ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
