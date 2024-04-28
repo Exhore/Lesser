@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Lesser is a web application focused on summarizing youtube content in a matter of seconds. The idea is simple: You want to know about the main ideas of a video, or what the video is about. Or you simply want a summary of the information the speaker is trying to convey without ads and without interruptions, powered by AI.
+Lesser is a web application focused on <b>summarize youtube content</b> in a matter of seconds. The idea is simple: You want to know about the main ideas of a video, or what the video is about. Or you simply want a summary of the information the speaker is trying to convey without ads and without interruptions, <b>powered by AI</b>.
 
 This application is a SPA. It runs on InertiaJS technology, which is a 'glue' between the front-end and back-end (vue + laravel). This makes the program feel responsive and fast.
 
