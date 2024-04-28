@@ -17,7 +17,6 @@
     ·
     <a href="https://github.com/Exhore/Lesser/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
-  ![MIT](https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge)
 </div>
 
 
@@ -26,6 +25,7 @@
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
+    ![MIT](https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge)
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
