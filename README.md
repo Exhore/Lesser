@@ -46,14 +46,22 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Lesser is a web application focused on summarizing youtube content in a matter of seconds. The idea is simple: You want to know about the main ideas of a video, or what the video is about. Or you simply want a summary of the information the speaker is trying to convey without ads and without interruptions, powered by AI.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Here's how:
+* You choose a URL of a youtube video and paste it in the input box of the website.
+* A connection is established with the OpenAI API and Youtube to collect the subtitles of the videos, process them to summarize them and deliver them to you.
+* In less than 5 seconds, you have your summary ready.:smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+This application is a SPA. It runs on InertiaJS technology, which is a 'glue' between the front-end and back-end (vue + laravel). This makes the program feel responsive and fast.
+
+Theres a list of characteristics of this app
+
+* Responsive
+ - 📱 Web is responsive with all kind of devices.
+ - 🏃 Faster than light 💡 - being a SPA, the app runs smoothly!
+ - 🔒 Secure storage - Users can be registered with 2FA for secure their accounts and sessions.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
