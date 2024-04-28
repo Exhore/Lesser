@@ -8,7 +8,7 @@
     <img src="https://i.imgur.com/vqq17xp.png" alt="Logo">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Lesser. Your youtube video summarizer.</h3>
 
   <p align="center">
     <a href="https://www.nelsonrivera.es/">View Demo</a>
@@ -25,7 +25,6 @@
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
-    ![MIT](https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge)
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -75,12 +74,11 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Vue][Vue.js]][Vue-url]
-* [![Laravel][Laravel-url]][Laravel-url]
-
-
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+[![Laravel][Laravel-url]][Laravel-url]
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-* ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+![MIT](https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,5 +154,3 @@ Project Link: [https://github.com/Exhor/Lesser](https://github.com/Exhor/Lesser)
 
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://www.nelsonrivera.es//issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://www.nelsonrivera.es//blob/master/LICENSE.txt
