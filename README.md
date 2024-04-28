@@ -57,10 +57,9 @@ This application is a SPA. It runs on InertiaJS technology, which is a 'glue' be
 
 Theres a list of characteristics of this app
 
-* Responsive
- - 📱 Web is responsive with all kind of devices.
- - 🏃 Faster than light 💡 - being a SPA, the app runs smoothly!
- - 🔒 Secure storage - Users can be registered with 2FA for secure their accounts and sessions.
+ - 📱 Web is <b>responsive</b> with all kind of devices.
+ - 🏃 <b>Faster</b> than light 💡 - being a SPA, the app runs smoothly!
+ - 🔒 Secure storage - Users can be registered with <b>2FA</b> for secure their accounts and sessions.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
