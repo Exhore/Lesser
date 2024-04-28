@@ -7,7 +7,7 @@
   <a href="https://www.nelsonrivera.es/">
     <img src="https://i.imgur.com/vqq17xp.png" alt="Logo">
   </a>
-
+![MIT](https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge)
   <h3 align="center">Lesser. Your youtube video summarizer.</h3>
 
   <p align="center">
@@ -24,7 +24,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Contents</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -40,11 +40,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -78,7 +75,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 [![Laravel][Laravel-url]][Laravel-url]
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
-![MIT](https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
