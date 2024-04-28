@@ -82,22 +82,16 @@ InertiaJS
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+If you don't want to use the App in my website, you can also run it in local. There are few steps to do that.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+List of prerequisites you need to use the software and how to install them.
 
 * php 8.0+, composer, laravel
 * All dependencies in package.json that will be installed with npm later.
 * Mysql database
 * Nodejs, npm
-
-```
-you can get from here for multiple systems:
-https://nodejs.org/en/download/
-```
 
 ### Installation
 
