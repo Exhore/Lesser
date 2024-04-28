@@ -1,4 +1,3 @@
-
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
@@ -41,25 +40,22 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 Lesser is a web application focused on <b>summarize youtube content</b> in a matter of seconds. The idea is simple: You want to know about the main ideas of a video, or what the video is about. Or you simply want a summary of the information the speaker is trying to convey without ads and without interruptions, <b>powered by AI</b>.
 
 This application is a SPA. It runs on InertiaJS technology, which is a 'glue' between the front-end and back-end (vue + laravel). This makes the program feel responsive and fast.
 
- - 📱 Web is <b>responsive</b> with all kind of devices.
- - 🏃 <b>Faster</b> than light 💡 - being a SPA, the app runs smoothly!
- - 🔒 Secure storage - Users can be registered with <b>2FA</b> for secure their accounts and sessions.
-
+-   📱 Web is <b>responsive</b> with all kind of devices.
+-   🏃 <b>Faster</b> than light 💡 - being a SPA, the app runs smoothly!
+-   🔒 Secure storage - Users can be registered with <b>2FA</b> for secure their accounts and sessions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
+
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
@@ -71,9 +67,8 @@ InertiaJS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 If you don't want to use the App in my website, you can also run it in local. There are few steps to do that.
@@ -82,70 +77,53 @@ If you don't want to use the App in my website, you can also run it in local. Th
 
 List of prerequisites you need to use the software and how to install them.
 
-* Git
-* php 8.0+, composer, laravel
-* All dependencies in package.json that will be installed with npm later.
-* Mysql database
-* Nodejs, npm
+-   php 8.0+, composer, laravel
+-   All dependencies in package.json that will be installed with npm later.
+-   Mysql database
+-   Nodejs, npm
 
 ### Installation
 
 _Below there is the requirements dependencies to install the program and run it in local._
 
 1. Contact me to get the OpenAI API key. Without API KEY, you CANNOT run the program.
-
 2. Clone the repo
-   ```sh
-   git clone https://github.com/Exhor/Lesser.git
-   ```
+    ```sh
+    git clone https://github.com/Exhor/Lesser.git
+    ```
 3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Composer install
-  ``` 
-  composer install
-  ```
-5. Put the '.env' file in root folder
-
-6. Run build
-
-If you want to run in dev mode, power on laravel and do the migrations and run build.
-
-```
-php artisan migrate
-php artisan serve
-npm run dev
-```
+    ```sh
+    npm install
+    ```
+4. Put the '.env' file in root folder
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
 
 Here's how:
-* You choose a URL of a youtube video and paste it in the input box of the website.
-* A connection is established with the OpenAI API and Youtube to collect the subtitles of the videos, process them to summarize them and deliver them to you.
-* In less than 5 seconds, you have your summary ready :smile:
+
+-   You choose a URL of a youtube video and paste it in the input box of the website.
+-   A connection is established with the OpenAI API and Youtube to collect the subtitles of the videos, process them to summarize them and deliver them to you.
+-   In less than 5 seconds, you have your summary ready :smile:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
-## License
-![MIT](https://img.shields.io/badge/license-MIT-blue)
 
+## License
+
+![MIT](https://img.shields.io/badge/license-MIT-blue)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Nelson Rivera - contacto@nelsonrivera.es
 
 Project Link: [https://github.com/Exhor/Lesser](https://github.com/Exhor/Lesser)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
