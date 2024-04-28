@@ -1,9 +1,6 @@
 
 <a name="readme-top"></a>
 
-[![MIT License][license-shield]][license-url]
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -21,6 +18,7 @@
     <a href="https://github.com/Exhore/Lesser/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
+[![MIT License][license-shield]][license-url]
 
 
 
@@ -81,6 +79,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![TailwindCSS][tailwindcss.com]][tailwind-url]
 * [![Inertiajs][inertiajs.com]][inertia-url]
 * [![Inertiajs][inertiajs.com]][inertia-url]
+* [![Python][Python-url]][Python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,12 +107,12 @@ https://nodejs.org/en/download/
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below there is the requirements dependencies to install the program and run it in local._
 
 1. Contact me to get the OpenAI API key. Without API KEY, you CANNOT run the program.
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Exhor/Lesser.git
    ```
 3. Install NPM packages
    ```sh
@@ -162,5 +161,7 @@ Project Link: [https://github.com/Exhor/Lesser](https://github.com/Exhor/Lesser)
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [Laravel-url]: https://laravel.com
+[Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[Python-url]: https://www.python.org/
