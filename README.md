@@ -69,7 +69,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 · And... Inertiajs
-<img src="https://avatars.githubusercontent.com/u/47703742?s=280&v=4" alt="inertia">
+<img src="https://avatars.githubusercontent.com/u/47703742?s=280&v=4" alt="inertia" width=32px height=32px>
 
 · API SERVICES
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
