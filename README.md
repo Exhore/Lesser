@@ -50,8 +50,6 @@ Lesser is a web application focused on <b>summarize youtube content</b> in a mat
 
 This application is a SPA. It runs on InertiaJS technology, which is a 'glue' between the front-end and back-end (vue + laravel). This makes the program feel responsive and fast.
 
-Theres a list of characteristics of this app
-
  - 📱 Web is <b>responsive</b> with all kind of devices.
  - 🏃 <b>Faster</b> than light 💡 - being a SPA, the app runs smoothly!
  - 🔒 Secure storage - Users can be registered with <b>2FA</b> for secure their accounts and sessions.
