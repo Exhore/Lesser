@@ -17,7 +17,7 @@
     ·
     <a href="https://github.com/Exhore/Lesser/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
-  [![MIT License][license-shield]][license-url]
+  ![MIT](https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge)
 </div>
 
 
@@ -77,10 +77,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [![Vue][Vue.js]][Vue-url]
 * [![Laravel][Laravel-url]][Laravel-url]
-* [![TailwindCSS][tailwindcss.com]][tailwind-url]
-* [![Inertiajs][inertiajs.com]][inertia-url]
-* [![Inertiajs][inertiajs.com]][inertia-url]
-* [![Python][Python-url]][Python-url]
+
+
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 * ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -159,11 +158,3 @@ Project Link: [https://github.com/Exhor/Lesser](https://github.com/Exhor/Lesser)
 [issues-url]: https://www.nelsonrivera.es//issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://www.nelsonrivera.es//blob/master/LICENSE.txt
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Laravel]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
-[Python-url]: https://www.python.org/
