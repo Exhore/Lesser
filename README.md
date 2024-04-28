@@ -17,8 +17,9 @@
     ·
     <a href="https://github.com/Exhore/Lesser/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
+  [![MIT License][license-shield]][license-url]
 </div>
-[![MIT License][license-shield]][license-url]
+
 
 
 
