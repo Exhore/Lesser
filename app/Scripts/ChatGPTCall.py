@@ -16,7 +16,7 @@ def ChatGPTCall(captionMessage):
         },
         {
             "role": "user",
-            "content": f"Por favor, hazme un resumen del siguiente texto para que lo entienda alguien sin contexto utilizando un lenguaje natural. No añadas nada más que el resumen (no utilices por ejemplo expresiones como 'Video:'). Además, si te vas a referir al texto, refierete como vídeo y no como texto: {captionMessage}"
+            "content": f"Por favor, hazme un resumen detallado del siguiente texto para que lo entienda alguien sin contexto utilizando un lenguaje natural. No añadas nada más que el resumen (no utilices por ejemplo expresiones como 'Video:'). Además, si te vas a referir al texto, refierete como vídeo y no como texto: {captionMessage}"
         }
     ],
         model="gpt-3.5-turbo",)
