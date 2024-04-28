@@ -48,11 +48,6 @@
 
 Lesser is a web application focused on summarizing youtube content in a matter of seconds. The idea is simple: You want to know about the main ideas of a video, or what the video is about. Or you simply want a summary of the information the speaker is trying to convey without ads and without interruptions, powered by AI.
 
-Here's how:
-* You choose a URL of a youtube video and paste it in the input box of the website.
-* A connection is established with the OpenAI API and Youtube to collect the subtitles of the videos, process them to summarize them and deliver them to you.
-* In less than 5 seconds, you have your summary ready.:smile:
-
 This application is a SPA. It runs on InertiaJS technology, which is a 'glue' between the front-end and back-end (vue + laravel). This makes the program feel responsive and fast.
 
 Theres a list of characteristics of this app
@@ -121,14 +116,12 @@ _Below there is the requirements dependencies to install the program and run it 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Here's how:
+* You choose a URL of a youtube video and paste it in the input box of the website.
+* A connection is established with the OpenAI API and Youtube to collect the subtitles of the videos, process them to summarize them and deliver them to you.
+* In less than 5 seconds, you have your summary ready :smile:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
