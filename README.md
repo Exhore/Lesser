@@ -76,7 +76,7 @@ Use the `BLANK_README.md` to get started.
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![Vue][Vue.js]][Vue-url]
-* [![Laravel][Laravel.com]][Laravel-url]
+* [![Laravel][Laravel-url]][Laravel-url]
 * [![TailwindCSS][tailwindcss.com]][tailwind-url]
 * [![Inertiajs][inertiajs.com]][inertia-url]
 * [![Inertiajs][inertiajs.com]][inertia-url]
