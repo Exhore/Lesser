@@ -92,7 +92,7 @@ List of prerequisites you need to use the software and how to install them.
 _Below there is the requirements dependencies to install the program and run it in local._
 
 1. Contact me to get the OpenAI API key. Without API KEY, you CANNOT run the program.
-<br>
+
 2. Clone the repo
    ```sh
    git clone https://github.com/Exhor/Lesser.git
