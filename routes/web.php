@@ -1,9 +1,9 @@
 <?php
 
 use App\Http\Controllers\QueryController;
-use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Http\Controllers\CrudController;
 
 // controllers for vue routes will be listed here
 
@@ -36,4 +36,5 @@ Route::middleware([
         return Inertia::render('Dashboard', ['videos' => $videos]);
     })->name('dashboard');
     Route::post('/query', [QueryController::class, "handleQuery"]);
+    Route::delete('/dashboard/videos/{id}', [CrudController::class, 'deleteVideo']);
 });

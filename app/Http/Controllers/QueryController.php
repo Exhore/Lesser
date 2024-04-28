@@ -23,21 +23,27 @@ class QueryController extends Controller
         if (Auth::check()) {
             $videoUrl = $request->input('videoUrl');
             $userId = Auth::id();
-            $language = $request->input('language');
             Session::flash('status', 'Task was successful!');
+            /* scripts execution */
             $scriptRoutineYoutube = base_path('app/Scripts/YoutubeCall.py');
+            $scriptRoutineYoutubeTitle = base_path('app/Scripts/YoutubeCallTitle.py');
             $scriptRoutineChatGPT = base_path('app/Scripts/ChatGPTCall.py');
             try {
                 $captionsMessage = shell_exec("python3 $scriptRoutineYoutube " . $video_id);
-                $summarizeMessage = shell_exec("python3 $scriptRoutineChatGPT \"" . $captionsMessage . $language . "\"");
+                $videoTitleMessage = shell_exec("python3 $scriptRoutineYoutubeTitle " . $video_id . " title");
+                $summarizeMessage = shell_exec("python3 $scriptRoutineChatGPT \"" . $captionsMessage . "\"");
                 Session::flash('captionsMessage', $summarizeMessage);
-                // Crear un nuevo registro en la tabla 'history'
-                \App\Models\History::create([
-                    'user_id' => $userId,
-                    'title' => 'Some title', /* sacar el titulo de youtube para mostrar aqui */
-                    'description' => $summarizeMessage,
-                    'url' => $videoUrl
-                ]);
+                // Creates a new register in table History. If it already exists, it doesnt create again
+                \App\Models\History::firstOrCreate(
+                    [
+                        'url' => $videoUrl,
+                        'user_id' => $userId
+                    ],
+                    [
+                        'title' => $videoTitleMessage,
+                        'description' => $summarizeMessage
+                    ]
+                );
             } catch (Exception $e) {
                 Session::flash('status', "Youtube ID not found");
             }

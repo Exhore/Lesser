@@ -16,3 +16,4 @@ use App\Http\Controllers\CrudController;
 */
 
 Route::get('/dashboard', [CrudController::class, 'videos']);
+Route::delete('/dashboard/videos/{id}', [CrudController::class, 'deleteVideo']);
