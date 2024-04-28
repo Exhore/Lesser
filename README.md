@@ -135,8 +135,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- LICENSE -->
 ## License
+![MIT](https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge)
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
