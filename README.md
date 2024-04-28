@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://www.nelsonrivera.es/">
-    <img src="https://i.imgur.com/vqq17xp.png" alt="Logo" width="80" height="80">
+    <img src="https://i.imgur.com/vqq17xp.png" alt="Logo">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
