@@ -13,7 +13,6 @@ const form = useForm({
     name: "",
     email: "",
     password: "",
-    phone: "",
     password_confirmation: "",
     terms: false,
 });
@@ -91,19 +90,6 @@ const submit = () => {
                     class="mt-2"
                     :message="form.errors.password_confirmation"
                 />
-            </div>
-
-            <div class="mt-4">
-                <InputLabel for="phone" value="Phone" />
-                <TextInput
-                    id="phone"
-                    v-model="form.phone"
-                    type="text"
-                    class="mt-1 block w-full"
-                    required
-                    autocomplete="phone"
-                />
-                <InputError class="mt-2" :message="form.errors.phone" />
             </div>
 
             <div class="flex items-center justify-end mt-4">
