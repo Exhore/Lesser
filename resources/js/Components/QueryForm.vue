@@ -43,7 +43,10 @@ const { outAnimation } = useStore();
                 </div>
             </form>
             <div v-if="$page.props.errors.videoUrl">
-                {{ $page.props.errors.videoUrl }}
+                <span
+                    class="text-sm text-red-400 animate-in fade-in-10 transition-opacity"
+                    >{{ $page.props.errors.videoUrl }}</span
+                >
             </div>
         </div>
         <template v-else>
