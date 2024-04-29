@@ -76,7 +76,7 @@ InertiaJS
 
 ### E-R DATABASE MODEL
 
-<img src="https://i.imgur.com/7ADD5oZ.png" alt="use cases">
+<img src="https://i.imgur.com/hWPyeMq.png" alt="erDiagram">
 
 
 ## Getting Started
