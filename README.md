@@ -90,6 +90,7 @@ If you don't want to use the App in my website, you can also run it in local. Th
 
 List of prerequisites you need to use the software and how to install them.
 
+- Python 3.10+
 -   php 8.0+, composer, laravel
 -   All dependencies in package.json that will be installed with npm later.
 -   Mysql database
@@ -125,6 +126,14 @@ _Below there is the requirements dependencies to install the program and run it 
    ```
    php artisan storage:link
     ```
+10. Pip dependencies for execute python scripts
+
+```
+pip install python-dotenv
+pip install openai
+pip install youtube-transcript-api
+pip install yt-dlp
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
