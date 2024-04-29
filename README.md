@@ -95,7 +95,23 @@ _Below there is the requirements dependencies to install the program and run it 
     ```sh
     npm install
     ```
-4. Put the '.env' file in root folder
+4. Install Composer dependencies
+
+   ``` composer install ```
+
+
+6. Put the '.env' file in root folder
+
+7. Do the migrations
+
+   ```
+    php artisan migrate
+   ```
+
+9. Create symbolic link for public and storage
+   ```
+   php artisan storage:link
+    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
