@@ -54,7 +54,7 @@ This application is a SPA. It runs on InertiaJS technology, which is a 'glue' be
 
 
 ## Youtube video explaining the concept
-<div align="center">(https://img.youtube.com/vi/FrZC6QzUGxM/0.jpg)](https://www.youtube.com/watch?v=FrZC6QzUGxM)</div>
+<div align="center">[![IMAGE ALT TEXT](http://img.youtube.com/vi/FrZC6QzUGxM/0.jpg)](http://www.youtube.com/watch?v=FrZC6QzUGxM "Lesser in action")</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
