@@ -71,7 +71,7 @@ InertiaJS
 
 ### USE CASE DIAGRAM
 
-<img src="https://i.imgur.com/7ADD5oZ.png" alt="use cases">
+<img src="https://i.imgur.com/fClc6QN.png" alt="use cases">
 
 ## Getting Started
 
