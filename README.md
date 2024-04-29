@@ -53,7 +53,8 @@ This application is a SPA. It runs on InertiaJS technology, which is a 'glue' be
 -   🔒 Secure storage - Users can be registered with <b>2FA</b> for secure their accounts and sessions.
 
 
-<div align="center">[![LesserVideoExplain](https://img.youtube.com/vi/FrZC6QzUGxM/0.jpg)](https://www.youtube.com/watch?v=FrZC6QzUGxM)</div>
+## Youtube video explaining the concept
+<div align="center">(https://img.youtube.com/vi/FrZC6QzUGxM/0.jpg)](https://www.youtube.com/watch?v=FrZC6QzUGxM)</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
