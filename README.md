@@ -69,6 +69,10 @@ InertiaJS
 
 <!-- GETTING STARTED -->
 
+### USE CASE DIAGRAM
+
+<img src="https://i.imgur.com/7ADD5oZ.png" alt="use cases">
+
 ## Getting Started
 
 If you don't want to use the App in my website, you can also run it in local. There are few steps to do that.
