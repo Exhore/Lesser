@@ -172,7 +172,6 @@ Here's how:
 
 Nelson Rivera - contacto@nelsonrivera.es
 
-Project Link: [https://github.com/Exhor/Lesser](https://github.com/Exhor/Lesser)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
