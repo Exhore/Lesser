@@ -81,6 +81,9 @@ InertiaJS
 ### E-R DATABASE MODEL
 <img src="https://i.imgur.com/hWPyeMq.png" alt="erDiagram">
 
+### UML DIAGRAM
+
+<img src="https://i.imgur.com/SOMgxG0.png" alt="uml diagram">
 
 ## Getting Started
 
