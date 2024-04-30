@@ -140,6 +140,14 @@ pip install yt-dlp
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Testing
+
+Tests can be found in 'test' folder. You can check tests by running the following command
+
+``` 
+php artisan test 
+```
+
 ## Usage
 
 Here's how:
