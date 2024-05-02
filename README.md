@@ -3,13 +3,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://www.nelsonrivera.es/">
+  <a href="https://nelsonrivera.es/">
     <img src="https://i.imgur.com/vqq17xp.png" alt="Logo">
   </a>
   <h3 align="center">Lesser. Your youtube video summarizer.</h3>
 
   <p align="center">
-    <a href="https://www.nelsonrivera.es/">View Demo</a>
+    <a href="https://nelsonrivera.es/">View Demo</a>
     ·
     <a href="https://github.com/Exhore/Lesser/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
